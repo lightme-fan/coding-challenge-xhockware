@@ -8,6 +8,8 @@
 > The purpose of this challenge is to give us an idea about your coding skills.
 > At XHOCKWARE we value well structured and tested code. Semantic HTML, modern and responsive CSS, a consistent coding style and a structured code base are important to us.
 > I know... you probably love to code (we also love it!). But please, read this file until the end and make sure you understand the requirements before you start coding! If you have any questions, just let us know!
+> ### ⚠ Please do not share this challenge ! ⚠
+
 
 ### Challenge
 Build a Javascript application that contains a list and a detail view of news articles.
