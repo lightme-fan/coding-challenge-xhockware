@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="xhockware.png">
+</p>
 ## Coding Challenge
 
 > ### ⚠️ Read it first!
