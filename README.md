@@ -1,6 +1,7 @@
-<p align="center">
-  <img src="xhockware.png">
+<p align="left">
+  <img src="xhockware.jpg">
 </p>
+
 ## Coding Challenge
 
 > ### ⚠️ Read it first!
@@ -100,6 +101,8 @@ It is not mandatory to run with this server or to use this API, but we highly re
 - In general, we'd rather see something simple you understand than something fancy you can't explain.
 
 - Please don't use something you already developed.
+
+- if you have any questions feel free to get in touch to [tech@xhockware.com](mailto:tech@xhockware.com) - we will try our best to get reply quickly
 
 Happy coding & good luck! 🚀
 
