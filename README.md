@@ -25,10 +25,10 @@ The final app should look somewhat similar to the mockup below, but as long as y
 
 ## Tech Requirements
 
-- Use Vue.JS to build this application.
+- Use Vue.JS to build this application (MANDATORY).
   * If you think it makes it easier for you, you can start with some Vue boilerplate (https://vue-community.org/guide/ecosystem/boilerplates.html).
 
-- If you don't know Vue.JS at this time (don't worry about it... we all keep learning new stuff every day), you can use React to build this application. Again, you start with create-react-app(https://github.com/facebook/create-react-app).
+  * (FALLBACK) If you don't know Vue.JS at this time (don't worry about it... we all keep learning new stuff every day), you can use React to build this application. Again, you can start with create-react-app(https://github.com/facebook/create-react-app).
 
 - Please do the layout and styling with your own CSS (pre-processors are allowed). Don't use any component libraries like bootstrap or material-ui.
 
