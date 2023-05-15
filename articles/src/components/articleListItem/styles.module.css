@@ -1,0 +1,36 @@
+.item_container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 7px;
+  background-color: #E7E9EB;
+  padding: 10px 16px;
+  border: 1px solid darkgrey;
+  cursor: pointer;
+};
+
+.image_wrapper {
+  width: 60px;
+  height: 60px;
+}
+
+.image_style {
+  width: 100px;
+  height: 70px;
+}
+
+.source {
+  width: 100%;
+}
+
+.writer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 16px;
+}

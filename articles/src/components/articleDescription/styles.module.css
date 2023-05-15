@@ -1,0 +1,41 @@
+.wrapper {
+  background-color: #E7E9EB;
+  border-radius: 7px;
+  padding: 30px;
+  border: 1px solid darkgrey;
+}
+
+.heading {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.image {
+  max-width: 260px;
+  width: 100%;
+}
+
+.description, .content {
+  margin: 16px 0;
+}
+
+.author {
+  margin: 16px 0;
+  text-align: end;
+  font-style: italic;
+}
+
+.url {
+  text-align: center;
+}
+
+.no_read_article {
+  text-align: center;
+}

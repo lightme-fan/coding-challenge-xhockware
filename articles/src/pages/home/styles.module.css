@@ -1,0 +1,27 @@
+.articles_container {
+    display: grid;
+    grid-template-columns: 35% 67px 1fr;
+    gap: 16px;
+}
+
+.bar {
+    width: 1px;
+    margin: 0 34px;
+    background-color: darkgrey;
+}
+
+.article_list {
+    display: grid;
+    gap: 16px;
+}
+
+@media (max-width: 715px) {
+    .articles_container {
+        grid-template-columns: 1fr;
+    }
+
+    .bar {
+        width: 90%;
+        height: 1px;
+    }
+  }
