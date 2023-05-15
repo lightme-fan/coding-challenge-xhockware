@@ -24,6 +24,10 @@
 - Make UI look better
 
 ## Screenshots
+![Screenshot from 2023-05-15 18-33-12](https://github.com/lightme-fan/coding-challenge-xhockware/assets/60210180/ef54642d-82cf-4156-8f31-601a387711d5)
+
+![Screenshot from 2023-05-15 19-11-07](https://github.com/lightme-fan/coding-challenge-xhockware/assets/60210180/47157927-a1ee-44ac-8ab5-5845424ff092)
+
 
 
 ## Locally testing
