@@ -4,11 +4,11 @@ import styles from "./styles.module.css";
 import { v4 as uuid } from 'uuid';
 import { Article } from '../../utils/types';
 
-const { articles_container, bar, parent_list, article_list, article_details } = styles;
+const { articles_container, bar, left_list, parent_list, article_list, article_details } = styles;
 
 const Home = () => {
   const uniqueId: string = uuid();
-  const [articles, setArticles] = useState<Article[] | null>(null);
+  const [articles, setArticles] = useState<Article[] | null | any>(null);
   const [articleDetails, setArticleDetails] = useState<Article | null | any>(null);
 
   const fetchArticles = async () => {
@@ -50,7 +50,7 @@ const Home = () => {
     <div className={articles_container}>
       <div className={parent_list} data-testid="left_side">
         <ul className={article_list}>
-          {articles && articles?.map((article: any) => {
+          {articles && articles?.map((article: Article) => {
             return <ArticleListItem
               key={article.id}
               article={article}
