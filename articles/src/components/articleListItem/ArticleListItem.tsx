@@ -20,7 +20,7 @@ interface ListItemType {
 
 const ArticleListItem : FC<ListItemType>= ({ article, handleClickOnArticle }) => {
   return (
-    <li className={item_container} onClick={() => handleClickOnArticle(article.id)}>
+    <li className={item_container} onClick={() => handleClickOnArticle(article.id)} data-testid="article">
       <div className={image_wrapper}>
         <img className={image_style} src={article.urlToImage} alt="Newspaper image" />
       </div>
@@ -29,7 +29,7 @@ const ArticleListItem : FC<ListItemType>= ({ article, handleClickOnArticle }) =>
         <div className={writer}>
           <div className={publishedAt}>Published in: {article.publishedAt}</div>
           <div className={author}>{article.source.name}</div>
-          <div><b><i>{article.viewText} article</i></b></div>
+          <div data-testid="viewText"><b><i>{article.viewText} article</i></b></div>
         </div>
       </div>
     </li>

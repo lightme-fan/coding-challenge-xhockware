@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Home page  tests if a list of article is display on the letf side 1`] = `
+<ArticleListItem
+  article={
+    Object {
+      "author": "Amelia Lucas",
+      "content": "Coca-Cola on Friday reported quarterly revenue.",
+      "description": "Coca-Cola on Friday reported quarterly earnings that met analysts' expectations.",
+      "id": "123",
+      "publishedAt": "2019-10-18T10:42:46Z",
+      "source": Object {
+        "id": "cnbc",
+        "name": "CNBC",
+      },
+      "title": "Coca-Cola stock jumps as strong sales of Coke Zero Sugar continue to drive revenue growth - CNBC",
+      "url": "https://www.cnbc.com/2019/10/18/coca-cola-ko-earnings-q3-2019.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/105375236-1533317591071rtx6drjw.jpg?v=1571332846",
+      "viewText": "Read",
+    }
+  }
+  handleClickOnArticle={[Function]}
+/>
+`;
+
+exports[`Tests Home page  tests if a list of article is display on the letf side, bar and right side 1`] = `
+<div
+  class="parent_list"
+  data-testid="left_side"
+>
+  <ul
+    class="article_list"
+  />
+</div>
+`;
