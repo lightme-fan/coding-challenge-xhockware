@@ -1,3 +1,7 @@
+.item_container:hover {
+  background-color: darkgray;
+}
+
 .item_container {
   display: flex;
   align-items: center;

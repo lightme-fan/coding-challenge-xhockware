@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 import { v4 as uuid } from 'uuid';
 import { Article } from '../../utils/types';
 
-const { articles_container, bar, article_list } = styles;
+const { articles_container, bar, parent_list, article_list, article_details } = styles;
 
 const Home = () => {
   const uniqueId: string = uuid();
@@ -24,7 +24,7 @@ const Home = () => {
       })
       setArticles(modifiedArticles);
     } catch (error) {
-      alert(error);
+      return error
     }
   };
 
@@ -48,7 +48,7 @@ const Home = () => {
 
   return (
     <div className={articles_container}>
-      <div>
+      <div className={parent_list} data-testid="left_side">
         <ul className={article_list}>
           {articles && articles?.map((article: any) => {
             return <ArticleListItem
@@ -59,8 +59,10 @@ const Home = () => {
           })}
         </ul>
       </div>
-      <div className={bar}></div>
-      <ArticleDescription article={articleDetails} />
+      <div className={bar} data-testid="bar"></div>
+      <div className={article_details} data-testid="right_side">
+        <ArticleDescription article={articleDetails} />
+      </div>
     </div>
   );
 }
